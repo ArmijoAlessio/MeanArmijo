@@ -20,7 +20,7 @@ app.get('/api', (req, res) => {
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
-   res.send('app works!');  
+   res.send('app works!');
    //res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
